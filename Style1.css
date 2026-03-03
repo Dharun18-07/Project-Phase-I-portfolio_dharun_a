@@ -1,0 +1,53 @@
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        width: 95%;
+    }
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height:auto;
+    border-radius: 10px;
+    
+}
+.div{
+flex: auto;
+text-align: center;
+font-size: 25px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+color: azure;
+border: 2px ;
+padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: azure;
+    transition: 0.3s;
+}
+a:hover{
+    color: rgb(26, 26, 53);
+}
+img:hover{
+    transform: scale(1.5);
+}
+#profile{
+    border: 2px solid rgb(48, 48, 99);
+}
+#profile:hover{
+    transform: scale(1.2);
+}
+body{
+    background-color: rgb(24, 24, 62);
+}
+div{
+    background-color: rgb(60, 60, 115);
+    border: 1px solid rgb(48, 48, 99);
+    border-radius: 5px;
+}
+
